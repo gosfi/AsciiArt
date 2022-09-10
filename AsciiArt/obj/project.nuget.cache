@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "eCFTnYfLiF/aCAi3Mcnnxw9Qbsd2DUHml8aif4DI4a1YvVBixeIr22a4DwxU8hMKnLZ8Vs4hZRaONkjxE0L9BA==",
+  "success": true,
+  "projectFilePath": "D:\\dev\\C#\\AsciiArt\\AsciiArt\\AsciiArt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sam\\.nuget\\packages\\magick.net-q16-anycpu\\12.1.0\\magick.net-q16-anycpu.12.1.0.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\magick.net.core\\12.1.0\\magick.net.core.12.1.0.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
