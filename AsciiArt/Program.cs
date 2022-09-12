@@ -13,7 +13,9 @@ namespace AsciiArt
             char[] reversed = asciiChars.ToCharArray();
             Array.Reverse(reversed);
             asciiChars = new string(reversed);
-            using var image = new MagickImage("C:\\Users\\Sam\\Desktop\\e3e5c94e50fa05ea03759292f3aea547.jpg");
+            Console.WriteLine("Write the path of your picture");
+            string path = Console.ReadLine();
+            using var image = new MagickImage(path);
             newWidth = image.Width;
             newHeight = image.Height;
             using IPixelCollection<ushort> pixels = image.GetPixels();
