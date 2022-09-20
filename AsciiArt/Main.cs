@@ -14,14 +14,17 @@ namespace AsciiArt
         public void Initialize()
         {
             MagickNET.Initialize();
+        }
+
+        void MainMenu() 
+        {
             Console.WriteLine("Write the path of your picture");
             string path = Console.ReadLine();
+            Console.Clear();
             using var image = new MagickImage(path);
-            using IPixelCollection<ushort> pixels = image.GetPixels();
-            Color[,] pixelMatrix = AsciiProcessing.instance.PixelMatrix(pixels, image.Width, image.Height);
-            byte[,] brightnessMatrix = new byte[image.Width, image.Height];
-            brightnessMatrix = AsciiProcessing.instance.GetBrightnessMatrix(pixelMatrix, brightnessMatrix, image.Width, image.Height);
-            AsciiProcessing.instance.PrintAsciiArt(brightnessMatrix, image.Width, image.Height);
+            Console.WriteLine("");
         }
+
+        
     }
 }
